@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element extends="task" label="Data Clearing Office" max_length="40" name="x_292971_data_clea_data_clearing_office" type="collection">
         <element attributes="encode_utf8=false" label="Requester" max_length="32" name="requester" reference="sys_user" type="reference"/>
+        <element label="Test" max_length="40" name="test" type="string"/>
     </element>
 </database>
